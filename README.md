@@ -1,6 +1,6 @@
 # LABPY.08
-# NAMA: AGUNG HERLAMBANG 
-# NIM: 312410296
+# NAMA: DONI SAPUTRA
+# NIM: 312410325
 # MATKUL: BAHASA PEMROGRAMAN
 
 # PRATIKUM
@@ -68,11 +68,11 @@ else:
 # CODE PENJELASAN 
 
 1. DaftarNilaiMahasiswa adalah kelas yang mengelola daftar mahasiswa. Kelas ini memiliki metode untuk menambah, mengubah, menghapus, dan menampilkan daftar nilai mahasiswa.
-2. Method tambah(self, nama, nilai) Menambahkan data mahasiswa baru ke dalam daftar.
-3. Method tampilkan(self) Menampilkan semua data mahasiswa yang tersimpan dalam daftar.
-4. Method hapus(self, nama) Menghapus data mahasiswa berdasarkan nama.
-5. Method ubah(self, nama, nilai_baru) Mengubah nilai mahasiswa yang sudah ada berdasarkan nama.
-6. Metode daftar_nilai menampilkan daftar nilai semua mahasiswa
+2. Method `tambah(self, nama, nilai)` Menambahkan data mahasiswa baru ke dalam daftar.
+3. Method `tampilkan(self) Menampilkan` semua data mahasiswa yang tersimpan dalam daftar.
+4. Method `hapus(self, nama)` Menghapus data mahasiswa berdasarkan nama.
+5. Method `ubah(self, nama, nilai_baru)` Mengubah nilai mahasiswa yang sudah ada berdasarkan nama.
+6. Metode `daftar_nilai` menampilkan daftar nilai semua mahasiswa
 
 Mencetak menu dengan lima opsi yang dapat dipilih pengguna tersebut:
 
