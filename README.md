@@ -11,7 +11,7 @@ class Mahasiswa: def init(self, nama, nilai): self.nama = nama self.nilai = nila
 
 class DaftarNilaiMahasiswa: def init(self): self.daftar_nilai = {}
 
-pyhton
+``` pyhton
 def tambah(self, nama, nilai):
     """Menambahkan data mahasiswa"""
     self.daftar_nilai[nama] = Mahasiswa(nama, nilai)
@@ -38,12 +38,12 @@ def ubah(self, nama, nilai_baru):
         print(f"Data {nama} berhasil diubah.")
     else:
         print(f"Data {nama} tidak ditemukan.")
-`
+```
 daftar_nilai = DaftarNilaiMahasiswa()
 
 while True: print("\nMenu:") print("1. Tambah Data") print("2. Tampilkan Data") print("3. Hapus Data") print("4. Ubah Data") print("5. Keluar")
 
-pyhton
+``` pyhton
 pilihan = input("Pilih menu: ")
 
 if pilihan == "1":
@@ -63,7 +63,7 @@ elif pilihan == "5":
     break
 else:
     print("Pilihan tidak valid.")
-`
+```
 
 # CODE PENJELASAN 
 
